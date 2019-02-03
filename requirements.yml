@@ -1,0 +1,6 @@
+- src: https://github.com/yurgent-s/ansible-docker-install
+  name: docker-role
+- src: https://github.com/yurgent-s/ansible-web-app-install
+  name: web-app-role
+- src: https://github.com/yurgent-s/ansible-nginx-load-balancer
+  name: nginx-role
