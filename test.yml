@@ -4,8 +4,8 @@
     result:
   tasks:
   - name: Check that a web server page returns a status 200
-    shell: /etc/ansible/test.sh
+    shell: /etc/ansible/test.sh nginx-load-balancer
     register: result
   - debug: var=result
-  - name: sleep for the output of the result
+  - name: Output of the result
     shell: "sleep 5"
