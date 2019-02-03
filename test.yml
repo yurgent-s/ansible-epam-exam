@@ -3,7 +3,7 @@
   vars:
     result:
   tasks:
-  - name: Check that a web server page returns a status 200
+  - name: Check that a web server based in docker container returns a status 200
     shell: /etc/ansible/test.sh nginx-load-balancer
     register: result
   - debug: var=result
