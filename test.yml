@@ -8,4 +8,4 @@
     register: result
   - debug: var=result
   - name: Output of the result
-    shell: "sleep 5"
+    shell: "sleep 1"
